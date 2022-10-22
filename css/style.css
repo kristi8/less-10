@@ -1,0 +1,96 @@
+/* header */
+.bg-image-header{
+    background-image: url('../images/image1.jpg');
+    height:324px;
+    width: 100%%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;  
+    
+
+}
+.bg-image-header::before{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    opacity: 60%;
+}
+
+.navigation-flex{
+    display: flex;
+    justify-content:space-between ;
+    width: 1089px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top:30px;  
+    
+}
+     
+
+a {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 600; 
+     
+    
+}
+.zetta{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.nav-ul {
+    display: flex;
+    font-size: 12px;
+
+}
+.home{
+    color: #5863F8;
+    margin-right: 51px;
+}
+.restaurant{
+    margin-left: 64px;
+    margin-right: 52px;
+}
+.blog{
+    margin-left: 52px;
+    margin-right: 54px ;
+}
+.aboutas{
+    width: 173px;
+    position:absolute;
+    top: 145px;
+    left: 21.5%;
+    
+}
+.h2{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+.div-about p{
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    display: inline;
+
+    
+}
+.p-home::after{
+    content: ' ';
+    width: 2px;
+    height: 19px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 16.5px;
+    vertical-align: middle;
+    
+}
+
