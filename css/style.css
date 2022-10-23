@@ -22,9 +22,12 @@
     justify-content:space-between ;
     width: 1089px;
     position: absolute;
-    left: 50%;
+    /* left: 50%;
     transform: translatex(-50%);
     top:30px;  
+     */
+     margin-left: 139px;
+     top:30px;
     
 }
      
@@ -62,7 +65,7 @@ a {
     width: 173px;
     position:absolute;
     top: 145px;
-    left: 21.5%;
+    margin-left: 139px;
     
 }
 .h2{
@@ -98,12 +101,14 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 90px;
+    align-items: center;
 
 }
 
 .left-block{
-    width: 405px;
+    width: 444px;
     background-color: antiquewhite;
+    
 }
 .left-block h2{
     color: #5863F8;
@@ -161,7 +166,8 @@ a {
 /* rigt-block */
 .right-block{
     width: 536px;
-    margin-left: 107px;
+    margin-left: 108px;
+
     
 }
 .top-image{
