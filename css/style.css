@@ -97,7 +97,7 @@ a {
 }
 /* section1 */
 
-.conteiner{
+.container{
     display: flex;
     justify-content: center;
     margin-top: 90px;
@@ -107,7 +107,6 @@ a {
 
 .left-block{
     width: 444px;
-    background-color: antiquewhite;
     
 }
 .left-block h2{
@@ -174,5 +173,97 @@ a {
     display: flex;
     justify-content:space-between ;
     margin-bottom: 16px;
+
+}
+/* section2 */
+.container2{
+    margin-top: 90px;
+    
+}
+.bg-image-section{
+    background-image: url('../images/group.jpg');
+    height: 612px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+.text-section2{
+    padding-top: 92px;
+    margin-left: 139px;
+    margin-bottom: 38px;
+    width: 332px;
+    
+}
+.text-section2 h2{
+    color: #5863F8;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    line-height: 19px;
+}
+.text-section2 p {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    line-height: 56px;
+    
+
+}
+.wraper{
+    display: flex;
+    justify-content: center;
+      
+
+}
+.block{
+    width: 260px;
+    height: 260px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block:nth-child(2){
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.block:nth-child(4){
+    margin-left: 16px;
+}
+.blu-div{
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block h2{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 142px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+.block p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    width: 221px;
+    text-align: center;
+    line-height: 19px;
+    height: 62px;
 
 }
