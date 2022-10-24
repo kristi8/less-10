@@ -119,14 +119,18 @@ a {
 
 }
 .text{
-    width: 306px;
-    font-size: 42px;
+    
+    font-size: 40px;
     line-height: 56px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    
+    
 }
 .lorem{
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     height: 88px;
     line-height: 21px;
 
@@ -134,7 +138,7 @@ a {
 .lorem2{
     font-family: 'Poppins';
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 19px;
 
 }
@@ -246,9 +250,9 @@ a {
     align-items: center;
 }
 .block h2{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Poppins';
-    font-weight: 600;
+    font-weight: 500;
     width: 142px;
     text-align: center;
     line-height: 24px;
@@ -256,7 +260,8 @@ a {
     margin-bottom: 27px;
 }
 .block p{
-    font-size: 14px;
+    color: #B1B1B1;
+    font-size: 12px;
     font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
