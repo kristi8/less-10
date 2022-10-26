@@ -31,7 +31,10 @@
     
 }
      
-
+.burger-bar{
+    display: none;
+    color: #FFFFFF;
+}
 a {
     color: #ffffff;
     font-family: 'Poppins';
@@ -102,6 +105,7 @@ a {
     justify-content: center;
     margin-top: 90px;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -177,6 +181,7 @@ a {
     display: flex;
     justify-content:space-between ;
     margin-bottom: 16px;
+    flex-wrap: wrap;
 
 }
 /* section2 */
@@ -214,15 +219,16 @@ a {
 .text-section2 p {
     color: #FFFFFF;
     font-size: 42px;
-    font-family: 'Poppins';
-    font-weight: 900;
+
     line-height: 56px;
-    
+    width: 322px;
 
 }
 .wraper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
       
 
 }
@@ -282,6 +288,8 @@ a {
     display: flex;
     justify-content: right;
     align-items: center;
+    flex-wrap: wrap;
+    
  
 }
 
@@ -297,9 +305,8 @@ a {
 
 }
 .trust{
-    font-size: 34px;
+    font-size: 35px;
     font-family: 'Poppins';
-    font-weight: 600;
     line-height: 56px;
 
 }
@@ -323,4 +330,79 @@ a {
 }
 .right-block-2{
     margin-left: 212px;
+}
+/* section3 */
+.section3{
+    margin-left: 139px;
+    margin-top: 90px;
+    margin-bottom: 54px;
+}
+.section3 h2{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #5863F8;
+   
+}
+.section3 p{
+    font-size: 35px;
+    font-family: 'Poppins';
+    width: 475px;
+
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* footer */
+
+/* responsive */
+@media (max-width:1000px){
+    .navigation{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+
+    }
+}
+@media (max-width:320px){
+    .container{
+
+        justify-content: center;
+    }
+
+}
+@media (max-width:320px){
+    .top-image{
+        justify-content: center;
+        
+    }
+    
+
+}
+@media (max-width:320px){
+    .wraper{
+    
+        justify-content: center; 
+    
+       }
+
+}
+/* @media (max-width:320px){
+    .container3{
+        justify-content: center;
+
+} */
+@media (max-width:320px){
+    .container4{
+
+       justify-content: center;
+       
+    }
+
 }
