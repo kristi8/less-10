@@ -394,12 +394,27 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #B1B1B1;
 }
 
 .footer-block1{
     width: 260px;
-
+    color: #ffffff;
+    font-family: 'Poppins';
 }
+
+.footer-block1 h2{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.footer-block1 p{
+    font-size: 14px;
+    margin-top: 22px;
+    margin-bottom: 20px ;
+}
+
+
 .contact-icon{
     color: #5863F8;
     margin-right: 14px;
@@ -407,6 +422,7 @@ a {
 
 .footer-social-icons{
     display: flex;
+    
 
 }
     
@@ -439,6 +455,43 @@ a {
     
 
 }
+.footer-block2{
+    font-family: 'Poppins';
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.footer-block2 h2 {
+    color: #F8F8F8;
+    font-size: 18px;
+    margin-bottom:21px;
+
+}
+.footer-block2 li{
+    padding-bottom: 11px;
+}
+
+.footer-block2  a{
+    margin-left: 14px;
+}
+
+.copy{
+    max-width: 1098px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #5863F8;
+    max-width: 494px;
+    width: 100%;
+}
+.copyright{
+    display: flex;
+  
+  
+}
+
+
+
 
 /* responsive */
 @media (max-width:1000px){
