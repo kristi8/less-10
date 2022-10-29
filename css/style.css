@@ -291,7 +291,6 @@ a {
     font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
     width: 221px;
     text-align: center;
     line-height: 19px;
@@ -514,7 +513,7 @@ a {
 
 }
 /* responsive */
-@media (max-width:1000px){
+/* @media (max-width:1000px){
     .navigation{
         display: none;
     }
@@ -551,11 +550,10 @@ a {
         justify-content: center;
 
 } */
-@media (max-width:320px){
+/* @media (max-width:320px){
     .container4{
 
        justify-content: center;
        
-    }
+    } */
 
-}

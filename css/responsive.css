@@ -1,0 +1,45 @@
+@media (max-width:1000px){
+    .navigation{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+
+    }
+}
+@media (max-width:320px){
+    .container{
+
+        justify-content: center;
+    }
+
+}
+@media (max-width:320px){
+    .top-image{
+        justify-content: center;
+        
+    }
+    
+
+}
+@media (max-width:320px){
+    .wraper{
+    
+        justify-content: center; 
+    
+       }
+
+}
+/* @media (max-width:320px){
+    .container3{
+        justify-content: center;
+
+} */
+@media (max-width:320px){
+    .container4{
+
+       justify-content: center;
+       
+    }
+
+}
