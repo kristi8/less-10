@@ -21,7 +21,7 @@
     display: flex;
     justify-content:space-between ;
     max-width: 1089px;
-    width: 100%;
+    width: 80%;
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
@@ -67,7 +67,8 @@ a {
     margin-right: 54px ;
 }
 .aboutus{
-    width: 1089px;
+    max-width: 1089px;
+    width: 80%;
     position:absolute;
     top: 145px;
     left: 50%;
@@ -116,7 +117,8 @@ a {
 }
 
 .left-block{
-    width: 444px;
+    max-width: 444px;
+    width: 100%;
     
 }
 .left-block h2{
@@ -481,6 +483,7 @@ a {
 }
 .copyright{
     display: flex;
+    flex-wrap: wrap;
     color: #FFFFFF;
     margin-top: 54px;
   
