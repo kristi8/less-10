@@ -37,3 +37,20 @@
         width: 50%;
     }
 }
+@media (max-width:600px){
+    .room2{
+        width: 100%;
+  
+    }
+}
+@media (max-width:370px){
+    .photo1{
+        width:100% ;
+    }
+    .photo2{
+        width: 100%;
+    }
+    .photo3{
+        width: 100%;
+    }
+}
